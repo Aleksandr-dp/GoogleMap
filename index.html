@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Map</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="menu">
+        <input type="text" id="lat" placeholder="lat coord">
+        <input type="text" id="lng" placeholder="lng coord">
+        <input type="text" id="placeName" placeholder="Place Name">
+        <input type="text" id="discription" placeholder="Discription">
+        <button id="btnSend">Tuta</button>
+    </section>
+    
+    <div id="map"></div>
+    
+    <button id="info">Discription</button>
+    <input type="text" id="numberMark" placeholder="№ метки">
+    <div class="info"></div>
+    
+    <script src="js/app.js"></script>
+    <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAigNsPW7GtHhqNmO8nuaZr7YqVsDaiG6s&callback=initMap">
+    </script>
+</body>
+</html>
